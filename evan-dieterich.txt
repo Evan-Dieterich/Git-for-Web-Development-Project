@@ -1,0 +1,76 @@
+    Codepen: https://codepen.io/evandieterich/pen/bGBzbYY?editors=1100
+    
+    1. What is Semantic HTML? 
+    Using descriptive tags to write easy-to-read HTML files.
+    2. What is HTML used for?
+    HTML is used to create the skeleton of a webpage including text, titles, paragraphs, etc. 
+    3. What is an attribute and where do we put it? 
+    An attribute is additional information regarding an html tag, we use them to desginate the url for a link or the file location of an image.
+    4. What is the h1 tag used for? How many times should I use it on a page?
+    H1 is the most important heading on a page and should be used only once.
+    5. Name two tags that have required attributes
+    <img> <a>
+    6. What do we put in the head of our HTML document? 
+    links to stylesheets and other information about the page like the tile.
+    7. What is an id?
+    An id is a reference to a CSS style and also a way to keep HTML elements clear and organized.
+    8. What elements can I add an id to? 
+    All html elements in the body can be assigned an id.
+    9. How many times can I use the same id on a page?
+    Only once.
+    10. What is a class?
+    A class is another reference to a CSS style decleration.
+    11. What elements can I add a class to? 
+    All elements within the body tags.
+    12. How many times can I use the same class on a page?
+    As many as neccessary.
+    13. How do I get my link to open in a new tab?
+    target="_blank"
+    14. What is the alt attribute in the image tag used for?
+    A desscription of the img for screen readers or browser issues.
+    15. How do I reference an id?
+    #
+    16. What is the difference between a section and a div
+    section is semantic and used for seperation and descriptiion, while div is used for styling purposes.
+    17. What is CSS used for? 
+    Styling HTML.
+    18. How to we select an element? Example - every h2 on the page
+    h2 {}
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+    id has a higher specificity. If you want to single out one element that may have a shared class you can use the id.
+    20. How do we select classes in CSS?
+    .
+    21. How do we select a p element with a single class of “human””?
+    p.human {} or just .human {}
+    22. What is a parent child selector? When would this be useful?
+    Parent child selctors will select all children of a specified element. This would be useful when you want to select many elemnts that are under a specific parent element like the body element.
+    23. How do you select all links within a div with the class of sidebar?
+    .sidebar a
+    24. What is a pseudo selector?
+    Selctors that will select an element based on their state (like element:hover)
+    25. What do we use the change the spacing between lines?
+    line-spacing
+    26. What do we use to change the spacing between letters?
+    letter-spacing
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+    text-transform: uppercase, lowercase, capitalize.
+    28. How do I add a 1px border around my div that is dotted and black?
+    border: 1px dotted balck;
+    29. How do I select everything on the page?
+    * {}
+    30. How do I write a comment in CSS?
+    // or /* */
+    31. How do I find out what file I am in, when I am using the command line? 
+    pwd
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+    ls
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+    rm filename, you must be careful because this will permanently delete a file without asking twice.
+    34. Why should I use version control? 
+    vc tracks who made what changes when. This is useful incase of program breaking bugs.
+    35. How often should I commit to github?
+    As often as changes are made.
+    36. What is the command we would use to push our repo up to github? 
+    git add -m "changes description"
+    37. Walk me through Lambda's git flow. 
+    fork > clone > branch > commit > push
